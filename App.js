@@ -8,9 +8,15 @@ export default function App() {
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
+        backgroundColor: "black"
       }}
     >
-      <Text>Universal React with Expo</Text>
+      <Text 
+        style={{
+          color: "white",
+          fontSize: "30px"
+        }}
+      >Universal React with Expo!</Text>
     </View>
   );
 }
